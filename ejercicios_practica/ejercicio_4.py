@@ -33,4 +33,18 @@ cantidad_numeros_positivos = 0
 # Al finalizar, imprimir en pantalla la variable cantidad_numeros_positivos
 
 
+# Comienzo de codigo por Gonzalo Larrea
 
+cantidad = int(input("Que cantidad de numeros quiere ingresar?:"))
+contador = 1
+cantidad_numeros_positivos = 0
+
+while contador <= cantidad:
+    numero = int(input("Ingrese un numero: \n"))
+    if numero > 0:
+        cantidad_numeros_positivos += 1
+    else:
+        pass
+    contador += 1
+
+print(f"Se ingresaron {cantidad_numeros_positivos} numeros positivos \n")

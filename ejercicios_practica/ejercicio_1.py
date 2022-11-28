@@ -57,3 +57,51 @@ res_3 = 0
 res_4 = 0
 
 # Imprimir en pantalla la variable res_4
+
+# Comienzo de codigo por Gonzalo Larrrea ///
+
+if numero_1 > numero_2:
+    res_1 = 1
+    print(f"el numero mayor es {numero_1}")
+    print(f"el valor de res_1 es {res_1}")
+else:
+    res_1 = 2
+    print(f"el numero mayor es {numero_2}")
+    print(f"el valor de res_1 es {res_1}")
+print("\n")
+
+if numero_1 > 0:
+    res_2 = 1
+    print(f"El numero {numero_1} es positivo")
+    print(f"el valor de res_2 es {res_2}")
+elif numero_1 < 0:
+    res_2 = 2
+    print(f"El numero {numero_1} es negativo")
+    print(f"el valor de res_2 es {res_2}")
+else:
+    res_2 = 3
+    print(f"El numero {numero_1} es 0")
+    print(f"El valor de res_2 es {res_2}")
+print("\n")
+
+if numero_1 > 0 and numero_1 < 100:
+    res_3 = 1
+    print(f"el numero {numero_1} es mayor a 0 y menor a 100")
+    print(f"El valor de res_3 es {res_3}")
+else:
+    res_3 = 2
+    print(f"El numero {numero_1} es menor a 0 o mayor a 100")
+    print(f"El valor de res_3 es {res_3}")
+print("\n")
+
+if numero_1 < 10 or numero_2 > -2:
+    res_4 = 1
+    print(f"El numero {numero_1} es menor a 10 o el numero {numero_2} es mayor a -2")
+    print(f"El valor de res_4 es {res_4}")
+else:
+    res_4 = 2
+    print(f"El numero {numero_1} es mayor a 10 y el numero {numero_2} es menor a -2")
+    print(f"el valor de res_4 es {res_4}")
+print("\n")
+
+# Fin del codigo ///

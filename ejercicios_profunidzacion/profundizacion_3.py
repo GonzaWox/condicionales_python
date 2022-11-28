@@ -48,19 +48,56 @@ Alumno:
 print('Juego de trivia')
 puntaje = 0
 
-pregunta_1 = "¿Cuál es la capital de Argentina?"
+pregunta_1 = "¿Cuál es la capital de Argentina? \n"
 respuesta_1 = "buenos aires"
 
-pregunta_2 = "¿Cuál es la capital de Perú?"
+pregunta_2 = "¿Cuál es la capital de Perú? \n"
 respuesta_2 = "lima"
 
-pregunta_3 = "¿Cuál es la capital de Uruguay?"
+pregunta_3 = "¿Cuál es la capital de Uruguay? \n"
 respuesta_3 = "montevideo"
 
-pregunta_4 = "¿Cuál es la capital de Colombia?"
+pregunta_4 = "¿Cuál es la capital de Colombia? \n"
 respuesta_4 = "bogota"
 
-pregunta_5 = "¿Cuál es la capital de Venezuela?"
+pregunta_5 = "¿Cuál es la capital de Venezuela? \n"
 respuesta_5 = "caracas"
 
 # Empezar aquí la resolución del ejercicio
+
+respuesta_usuario = str(input(pregunta_1))
+if respuesta_usuario.lower() == respuesta_1:
+  print("Correcto! \n")
+  puntaje += 10
+else:
+  print("incorrecto \n")
+
+respuesta_usuario = str(input(pregunta_2))
+if respuesta_usuario.lower() == respuesta_2:
+  print("Correcto! \n")
+  puntaje += 10
+else:
+  print("incorrecto \n")
+  
+respuesta_usuario = str(input(pregunta_3))
+if respuesta_usuario.lower() == respuesta_3:
+  print("Correcto! \n")
+  puntaje += 10
+else:
+  print("incorrecto \n")
+  
+respuesta_usuario = str(input(pregunta_4))
+if respuesta_usuario.lower() == respuesta_4:
+  print("Correcto! \n")
+  puntaje += 10
+else:
+  print("incorrecto \n")
+  
+respuesta_usuario = str(input(pregunta_5))
+if respuesta_usuario.lower() == respuesta_5:
+  print("Correcto! \n")
+  puntaje += 10
+else:
+  print("incorrecto \n")
+  
+print(f"Su puntaje final es de {puntaje}")

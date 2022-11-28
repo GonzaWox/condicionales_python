@@ -36,3 +36,23 @@ nota = ""
 # Puede consultar el ejemplo de clase 2 como referencia
 
 # Imprimir en pantalla la variable nota
+
+# Comienzo de codigo por Gonzalo Larrea ///
+while puntaje != 0:
+
+    puntaje = int(input("Ingrese el puntaje del alumno: "))
+
+    if puntaje >= 90:
+        nota = "A"
+    elif puntaje >= 80:
+        nota = "B"
+    elif puntaje >= 70:
+        nota = "C"
+    elif puntaje >= 60:
+        nota = "D"
+    else:
+        nota = "F"
+    print(f"Su nota es {nota}")
+    print("\n")
+    
+# Fin de codigo ///
